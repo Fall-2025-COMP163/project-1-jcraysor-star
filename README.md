@@ -91,8 +91,61 @@ Modifying protected files will result in automatic academic integrity violation
  Interview scheduled and completed
  
  AI usage documented in code comments
- This project is a Character Creator program that allows users to create, save, load, and level up RPG-style characters. Each character has stats such as strength, magic, health, and gold, which are calculated based on their class (Warrior, Mage, Rogue, or Cleric) and level. The program can save a character’s information to a text file and later load it back for continued use. It also includes a level-up system that increases stats appropriately. Overall, the project demonstrates the use of functions, file input/output, data structures like dictionaries, and basic error handling in Python.
+What's Your RPG World About
+My RPG world is about creating and managing a fantasy character that grows stronger over time. Players can choose a class such as Warrior, Mage, Rogue, or Cleric, each with different strengths and abilities. The program allows players to view their stats, level up, and save their progress for future adventures. It’s a mix of fantasy role-playing and programming logic that helps bring an RPG character to life through Python code.
+  How the Code Works
 
+The code is divided into clear sections:
+
+Character Creation:
+
+Takes in a name and class, calculates stats based on formulas for that class.
+
+Initializes the character with level 1 and 100 gold.
+
+Stat Calculation:
+
+Uses a function calculate_stats() that assigns base stats and growth per level.
+
+Stats increase automatically when the character levels up.
+
+Saving and Loading Files:
+
+save_character() writes the character’s details into a .txt file in a readable format.
+
+load_character() retrieves the information and reconstructs the character.
+
+Level-Up System:
+
+The level_up() function increases level and recalculates stats using the class formulas.
+
+Display:
+
+display_character() neatly prints all the character’s information like a profile sheet.
+
+AI Usage
+
+AI tools were used responsibly to:
+
+Help design stat growth formulas for each class.
+
+Suggest better file I/O error handling and code structure.
+
+Improve readability and organization of code sections.
+
+All logic, structure, and testing were written and verified by the student. AI was used as a coding assistant, not as a replacement for original work.
+
+ Design Choices
+
+Classes: Four distinct classes to reflect different playstyles (power, magic, balance, and healing).
+
+File Handling: Simple text format for easy reading and saving.
+
+Scalability: Modular design — more classes or features can easily be added later.
+
+Error Handling: Prevents crashes when invalid input or missing files occur.
+
+User Experience: Clean print layout that mimics a character sheet.
 # 🏆 Grading
 
 Implementation (70%): Function correctness, file operations, error handling
