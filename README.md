@@ -91,6 +91,7 @@ Modifying protected files will result in automatic academic integrity violation
  Interview scheduled and completed
  
  AI usage documented in code comments
+ This project is a Character Creator program that allows users to create, save, load, and level up RPG-style characters. Each character has stats such as strength, magic, health, and gold, which are calculated based on their class (Warrior, Mage, Rogue, or Cleric) and level. The program can save a character’s information to a text file and later load it back for continued use. It also includes a level-up system that increases stats appropriately. Overall, the project demonstrates the use of functions, file input/output, data structures like dictionaries, and basic error handling in Python.
 
 # 🏆 Grading
 
